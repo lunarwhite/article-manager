@@ -1,6 +1,24 @@
 # article-manager
 A simple web app with microservice written in Golang and Gin, to manager articles.
 ```
+.
+├── LICENSE
+├── README.md
+├── common_test.go
+├── go.mod
+├── go.sum
+├── handlers.article.go
+├── handlers.article_test.go
+├── main.go
+├── models.article.go
+├── models.article_test.go
+├── routes.go
+└── templates
+    ├── article.html
+    ├── footer.html
+    ├── header.html
+    ├── index.html
+    └── menu.html
 ```
 
 # setup envs
@@ -25,7 +43,11 @@ A simple web app with microservice written in Golang and Gin, to manager article
   - Middleware — to implement authentication
 
 # run & deploy
-
+- run
+  ```shell
+  go run mian.go
+  ```
+- visit `localhost:8080`
 
 # reference
 - [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin)
